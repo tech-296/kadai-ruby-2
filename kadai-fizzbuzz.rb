@@ -1,13 +1,14 @@
 def fizzbuzz(num)
     if  (num % 3 == 0) && (num % 5 == 0)
-        puts "FizzBuzz"
+        result = "FizzBuzz"
     elsif (num % 3 == 0)
-        puts "Fizz"
+        result = "Fizz"
     elsif (num % 5 == 0)
-        puts "Buzz"
+        result = "Buzz"
     else
-        puts num
+        result = num
     end
+    return puts result
 end
 
 num_max = 100
