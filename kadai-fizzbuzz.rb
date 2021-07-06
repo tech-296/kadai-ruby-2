@@ -8,10 +8,11 @@ def fizzbuzz(num)
     else
         result = num
     end
-    return puts result
+    return result
 end
 
 num_max = 100
 (1..num_max).each do |i|
-    fizzbuzz(i)
+    answer = fizzbuzz(i)
+    puts answer
 end
